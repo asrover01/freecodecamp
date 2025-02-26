@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="survey-styles.css">
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <div id="form-backgound">
+    <h1 id="title">Restaurant Survey Form</h1>
+    <p id="description">Thank you for dining with us. Please fill out our survey form to help us make a better restaurant experiance in the future.</p>
+    <form id="survey-form">
+      <fieldset id="guest-info">
+          <legend>Contact Details</legend>
+            <label id="name-label" for="name">Name (required):</label>
+            <input required type="text" id="name"
+            placeholder="eg John Doe" name="name">
+            <br>
+            <label id="email-label" for="email">Email (required):</label>
+            <input required type="email" id="email" placeholder="Eample@email.com" name="email">
+            <br>
+            <label id="number-label" for="group-size">Group Size (required):</label>
+            <input required type="number" id="number" name="group-size" placeholder="4" min="1" max="20">
+        </fieldset>
+        <fieldset id="experiance-fieldset">
+          <legend>Please rate your experiance</legend>
+          <label id="food-label" for="dropdown">How was you food<label>
+            <select id="dropdown" name="food-rating">
+              <option value="bad">Bad</option>
+              <option value="okay">Okay</option>
+              <option value="good">Good</option>
+              <option value="very-good">Very Good<option>
+              </select>             
+                        </fieldset>
+                         <fieldset id="server-fieldset">
+                <legend>How would you rate you server</legend>
+             <label id="lazy-label" for="lazy">
+               Lazy <input type="checkbox"
+                 id="lazy"
+                  name="lazy" 
+                  value="lazy"></label>
+             
+             <label id="happy-label" for="happy"> Happy <input type="checkbox" 
+                id="happy"
+                name="happy"
+                value="happy"></label>
+                
+                <label id="slow-label" for="slow"> Slow <input type="checkbox" 
+                id="slow"
+                name="slow"
+                value="slow"/></label>
+
+                <label id="fast-label" for="fast">
+                 Fast <input type="checkbox" 
+                id="fast"
+                name="fast"
+                value="fast"/></label>
+                
+                </fieldset>
+              <fieldset id="recommend-fieldset">
+                  <legend id="recommend">Would you recommend us to a friend</legend>
+                  <label id="yes-label" for="yes-option"> <input type="radio" 
+                  id="yes-option"
+                  name="recommend"
+                  value="recommend"> Yes</label>
+                  
+                  <label id="no-label" for="no-option"><input type="radio" value="recommend" id="no-option" name="recommend"> No </label>
+                  
+                </fieldset>
+                <section id="comment">
+                <label id="comments-label" for="comments">Additional Comments</label><br>
+                <textarea placeholder="The service was...." id="comments" name="comments" rows="4" cols="30"></textarea>
+<button id="submit">submit form</button>
+</section>
+      </form>
+      </div>
+  </body>
+</html>
