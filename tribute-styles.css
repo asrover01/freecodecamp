@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  text-align:center;
+  font-size:16px;
+  font-family: Sans-Serif;
+  line-height:2rem;
+}
+figure{
+  display:flex;
+  flex-direction:column;
+  
+}
+h1, h2{
+  margin:2rem 0 1rem;
+}
+
+figure{
+  background-color:rgba(158, 158, 158,0.4);
+}
+img{
+  display:block;
+  max-width:100%;
+  width:50%;
+  margin: 1em auto 0;
+  background-color:gray;
+}
+p, li{
+  width:60%;
+  margin:0 auto 1.5em;
+ }
+#p1, li{
+  padding-bottom:1em;
+   border-bottom: 3px solid lightgray;
+}
+ul{
+  margin:0 auto ;
+}
+li{
+  list-style: none;
+  width:80%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+#tribute-message{
+  display:flex;
+  flex-direction:column;
+  width:70%;
+  font-size:2em;
+  padding-top:2rem;
+}
