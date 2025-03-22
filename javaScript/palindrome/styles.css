@@ -50,6 +50,9 @@ font-size:1.2em;
   margin:20px auto 5px;
   padding:5px;
 }
+#check-btn:hover{
+  background-color:black;
+}
 #result{
   color:black;
   margin:10px auto;
