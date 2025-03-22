@@ -24,6 +24,6 @@ checkButton.addEventListener("click", palindromeCheck);
 const checkTextInput = document.getElementById('text-input'); // Reference the input field
 checkTextInput.addEventListener('keydown', function(event) {
   if (event.key === 'Enter') {
-    palindromeCheck(); // Call the function
+    palindromeCheck(); 
   }
 });
