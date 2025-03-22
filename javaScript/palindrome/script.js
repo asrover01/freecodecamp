@@ -3,9 +3,9 @@ let resultText = document.getElementById('result');
 const checkText = document.getElementById('text-input');
 
 function palindromeCheck() {
-  const inputText = checkText.value;
+  const inputText = checkText.value; // Get the value of the input field
 
-  if (inputText === "") {
+  if (inputText === "") { // Check if the input is empty
     alert("Please input a value");
     return;
   }
@@ -14,9 +14,9 @@ function palindromeCheck() {
   const reverseText = cleanText.split('').reverse().join('');
   
   if (cleanText === reverseText) {
-    resultText.innerText = `${inputText} is a palindrome`;
+    resultText.innerText = `${inputText} is a palindrome`; // Use inputText, not checkText
   } else {
-    resultText.innerText = `${inputText} is not a palindrome`;
+    resultText.innerText = `${inputText} is not a palindrome`; // Use inputText, not checkText
   }
 }
 
