@@ -12,7 +12,8 @@ function palindromeCheck(){
   return;
 }
 
-  const cleanText= checkText.toLowerCase().replace(/[^a-z0-9]/g,"");
+  let cleanText= checkText;
+  cleanText = cleanText.toLowerCase().replace(/[^a-z0-9]/g,"");
   const reverseText = cleanText.split('').reverse().join('');
   if (cleanText === reverseText){
   resultText.innerText = `${checkText} is a palindrome`;} 
