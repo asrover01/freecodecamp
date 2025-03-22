@@ -18,3 +18,8 @@ function palindromeCheck(){
 }
 
 checkButton.addEventListener("click", palindromeCheck);
+checkText.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter') {
+    palindromeCheck(); // Call the palindrome check function
+  }
+});
