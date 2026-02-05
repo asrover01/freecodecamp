@@ -1,0 +1,78 @@
+html{
+  font-family:Aril, sans-serif;
+  font-size:20px
+}
+/* row backgrounds*/
+thead{
+  background:linear-gradient(lightblue,cyan);
+}
+tr[class="read"]{
+  background-image:linear-gradient(
+    90deg,lightgreen, darkseagreen, green);
+}
+tr[class="in-progress"]{
+background-image:linear-gradient(
+    90deg,yellow,orange, darkorange);
+}
+tr[class="to-read"]{
+background-image:linear-gradient(
+    90deg,lightblue, orangered);
+}
+/* sizing and styling rows*/
+th:first-of-type{
+  width:50%;
+}
+th{
+  width:20%;
+}
+td{
+  padding:0 5px;
+}
+span{
+  display:inline-block;
+  
+}
+tr[class="read"] span[class="status"]{
+border:2px solid darkgreen;
+background-image:linear-gradient(90deg,lightgreen,green);
+}
+
+tr[class="in-progress"] span[class="status"]{
+  border:2px solid darkorange;
+  background-image:linear-gradient(90deg,orange, yellow);
+}
+tr[class="to-read"] span[class="status"]{
+  border:2px solid crimson;
+  background-image:linear-gradient(90deg,orangered,red);
+}
+/*sizing and sizing spans within columns status and rate*/
+span[class="status"], span[class^="rate"]{
+  height:1.5em;
+  width:7em;
+  padding:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:40px;
+}
+/*making and styling rate indicators*/
+span[class^="rate"]> span{
+  background-color:rgb(231, 213, 186);
+  height:1em;
+  width:1em;
+  margin:3px;
+  border:3px solid black;border-radius:50%;
+}
+
+span[class~="one"]> span:nth-child(1){
+  background-image:linear-gradient(90deg,green,lightgreen);
+}
+span[class~="two"] span:nth-child(1),span[class~="two"] span:nth-child(2){
+  background-image:linear-gradient(90deg,green,lightgreen);
+}
+
+span[class~="three"]> span{
+  background-image:linear-gradient(90deg,green,lightgreen);
+}
+
+
