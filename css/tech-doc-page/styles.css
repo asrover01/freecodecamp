@@ -12,6 +12,7 @@ body{
   flex-direction:column;
   margin:0;
   background:#eee;
+  width:100vw;
 }
 header{
   background:#bcb;
