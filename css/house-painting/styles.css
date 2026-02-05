@@ -1,0 +1,75 @@
+
+*{
+  box-sizing:border-box;
+}
+body{
+  background:linear-gradient(aqua 0 50%,lightgreen 50% 100%)
+}
+#sun{
+  position:absolute;
+  top:10px;
+  left:20px;
+  height:50px;
+  width:50px;
+  border-radius:50%;background:radial-gradient(lightyellow,gold, orange);
+}
+#house{
+  position:relative;
+  width:500px;
+  height:400px;
+  border:1px solid black;
+  background:chocolate;
+  margin:100px auto;
+}
+#house div{
+  position:absolute;
+}
+
+#roof{
+  width:540px;
+  height:150px;
+  top:0;
+  left:-20px;
+   border:1px solid black;
+background:repeating-linear-gradient(LightSalmon 20%,black 21%, DarkSalmon 22%, lightsalmon 30% );
+}
+#chimney{
+  height:60px;
+  width:40px;
+  left:430px;
+  top:-60px;
+  border:1px solid black;
+background:repeating-linear-gradient(#000 0 1px, brown 1px 10px);
+  z-index:-1;
+}
+#door{
+  height:100px;
+  width:70px;
+  background:brown;
+  border:1px solid black;
+  bottom:0;
+  left:40%;
+}
+#window-1, #window-2{
+  height:50px;
+  width:50px;
+   border:1px solid black;background:linear-gradient(45deg,cyan, lightblue, azure , #eee);
+  bottom:60px;
+}
+#window-1{
+left:60px;
+}
+#window-2{
+  right:60px;
+}
+
+#door-handle{
+  height:10px;
+  width:10px;
+  background:gold;
+  border:1px solid black;
+  border-radius:50%;
+  right:5px;
+  top:40%;
+}
+
