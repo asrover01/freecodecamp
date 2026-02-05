@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>HTML Reference Guide</title>
+    
+    </head>
+    <body>
+      <nav id="navbar">
+        <header id="CSS_Documentation">
+        <h1>CSS Documentation</h1>
+        </header>
+        <ul>
+          <li><a class="nav-link" href="#css_introduction">CSS Introduction</a></li>
+          <li><a class="nav-link"  href="#css_syntax">CSS Syntax</a></li>
+          <li><a class="nav-link"  href="#css_selectors">CSS Selectors</a></li>
+          <li><a class="nav-link"  href="#box_model">Box Model</a></li>
+          <li><a class="nav-link"  href="#reference">Reference</a></li>
+        </ul>
+      </nav>
+       <main id="main-doc">
+           <section id="css_introduction" class="main-section">
+                <header >
+                  <h2>CSS Introduction</h2>
+                </header>
+                <h3>What is CSS?</h3>
+                <ul>
+                  <li>CSS stands for Cascading Style Sheets.</li>
+                  <li>CSS describes how the code in a HTML page will be displayed on a screen.</li>
+                  <li>External CSS can also be used to style multiple webpages using the same style sheet.</li>
+                  <li>CSS has become essential in modern webpages.</li>
+                </ul>
+
+<p>To link a HTML page to a CSS stylesheet use the following code</p>
+
+<p><code>&#60link rel="stylesheet" href="./css-folder/styles.css"&#62</code></p>
+<p>it's important to note the href will change depending on the file location of the style sheet.</p>
+            </section>
+            <section id="css_syntax" class="main-section">
+                <header >
+                  <h2>CSS Syntax</h2>
+                </header>
+              <p>The CSS syntax refers to the the selectors for the HTML element you wish to style. Along with the declaration block which is the actual styling you wish to apply.</p> 
+            
+            <p>The basic CSS syntax cosists of a selector which can be an element, a class or an id. With the styling declaration contained in curly brackets like so:</p>
+           <pre><code>
+p{color:black; font-size:16px;}
+.paragraph{color:black; font-size:16px;}
+#Info{color:black; font-size:16px;}</code></pre>
+                  <p> As shown there are dots and hashes included along with P these are.</p>
+                  <ul>
+                    <li><b>p</b> represent a paragraph with p element. All the paragraphs in the page will use the corresponding declaration for styling.</li>
+                    <li><b>.paragraph</b> is a <i>class</i> as defined by the dot at the beginning and is a selector you create for multiple elements you wish to group style.</li>
+                    <li><b>#info</b> is an id element as defined by the hastag and is used to style only one element as you can only have one id per page.</li>
+                  </ul>
+                  <p>The declaration contains a property like color the semicolon to indicate the color style, the value black and the semicolons indicating the end of this declaration.<p>
+            </section>
+            <section id="css_selectors" class="main-section">
+                <header >
+                  <h2>CSS Selectors</h2>
+                </header>
+                  <p>CSS selector are used to find and select HTML elements you wish to style. There a five catagories of selectors</p>
+                  <ul>
+                    <li><b>Simple selectors</b> i.e. name, class and id</li>
+                    <li><b>Combinator selectors</b> such as. <code>.section p</code> Will select all p elements within the class=section</li>
+                      <li><b>Peudo-class selectors</b>, select based on states like mouse pointer hover. <code>button:hover</code></li>
+                      <li><b>Pseudo-element selectors</b> to style part of an element such as <code>p::first-line{color:blue;}</code> will mak the first line of the paragraph blue</li>
+                      <li>Lastly <b>Attribute selectors</b> which selects elements based on attribute such as <code>[class="top"]{color:blue}</code> will select all class=blue</li>
+                  </ul>
+            </section>
+            <section id="box_model" class="main-section">
+                <header>
+                  <h2>Box Model</h2>
+                </header>
+                  <p>The box Model consists of the margin, the border, the padding and the content. It's best decribed as the content in a carboard box and the bubble wrap padding within the box. The margin would be the box itself and the margin is the space around the box like this</p>
+                  <div id="margin">
+                    <div id="border">
+                      <div id="padding">
+                        <div id="content"></div>
+                      </div>
+                    </div>
+                  </div> 
+            </section>
+            <section id="reference" class="main-section">
+                <header >
+                  <h2>Reference</h2>
+                </header>
+            <p>To look up more on the information in this web page and other aspects of CSS here are some useful websites.</p>
+            <ul id="footer-reference">
+              <li><a href="https://www.w3schools.com/css/default.asp">W3 Schools</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs</a></li>
+            </ul>
+            </section>
+            
+          </main>
+      </body>
+  </html>
