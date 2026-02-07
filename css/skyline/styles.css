@@ -318,7 +318,7 @@ body {
         color:white;
       }
 }
-@media (orientation: portrait){
+@media (orientation: landscape){
       :root {
     --building-color1: #000;
     --building-color2: #000;
@@ -335,6 +335,22 @@ body {
       );
      
   }
+  @media (orientation: portrait){
+:root{    
+  --building-color1: #aa80ff;
+  --building-color2: #66cc99;
+  --building-color3: #cc6699;
+  --building-color4: #538cc6;
+  }
+ .sky {
+  background: radial-gradient(
+      closest-corner circle at 15% 15%,
+      #ffcf33,
+      #ffcf33 20%,
+      #ffff66 21%,
+      #bbeeff 100%
+    );
+}
    h1{
         color:white;
       }
