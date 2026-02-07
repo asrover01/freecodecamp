@@ -297,72 +297,17 @@ body {
     );
 }
 
-@media (min-width: 1400px) {
-  :root {
-    --building-color1: #000;
-    --building-color2: #000;
-    --building-color3: #000;
-    --building-color4: #000;
-  }
-  .sky {
-    background: radial-gradient(
-        closest-corner circle at 15% 15%,
-        #ccc,
-        #ccc 20%,
-        #445 21%,
-        #223 100%
-      );
-     
-  }
-   h1{
-        color:white;
-      }
+button{
+    position: absolute;
+    z-index: 2;
+    top:10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
 }
-@media (orientation: landscape){
-      :root {
-    --building-color1: #000;
-    --building-color2: #000;
-    --building-color3: #000;
-    --building-color4: #000;
-  }
-  .sky {
-    background: radial-gradient(
-        closest-corner circle at 15% 15%,
-        #ccc,
-        #ccc 20%,
-        #445 21%,
-        #223 100%
-      );
-     
-  }
-  @media (orientation: portrait){
-:root{    
-  --building-color1: #aa80ff;
-  --building-color2: #66cc99;
-  --building-color3: #cc6699;
-  --building-color4: #538cc6;
-  }
- .sky {
-  background: radial-gradient(
-      closest-corner circle at 15% 15%,
-      #ffcf33,
-      #ffcf33 20%,
-      #ffff66 21%,
-      #bbeeff 100%
-    );
+img{
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;;
+
 }
-   h1{
-        color:white;
-      }
-}
-    h1{
-        font-family: sans-serif;
-        position:absolute;
-        top: 5px;
-        display: flex;
-        justify-self: center;
-        opacity: 10%;
-        z-index: 1;
-        text-align: center;
-        font-size:3vw;
-    }
