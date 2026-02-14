@@ -114,6 +114,7 @@ body {
   height: 20px;
   background-color: #fff;
   border-radius: 60%;
+  animation: wink ease-in 9s infinite;
 }
 
 .cat-nose {
@@ -203,4 +204,19 @@ body {
   top: 134px;
   left: 109px;
   transform:rotate(3deg);
+}
+
+@keyframes wink{
+    0%{
+        background-color: white;
+    }
+    90%{
+        background-color: white;
+    }
+    91%{
+        background: black
+    }
+    100%{
+        background: black
+    }
 }
