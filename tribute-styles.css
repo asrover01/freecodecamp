@@ -25,8 +25,7 @@ figure{
   background-color:rgba(158, 158, 158,0.4);
 }
 img{
-  
-  max-width:100%;
+  min-width:15rem;
   width:calc(99% - 10vw);
   max-width: 50rem;
   margin: 1rem auto 0;
