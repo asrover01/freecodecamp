@@ -26,7 +26,7 @@ figure{
   background-color:rgba(158, 158, 158,0.4);
 }
 #image{
-  object-fit: contain;
+  width:99%;
   max-width:50rem;
   margin: 1rem auto 0;
   background-color:gray;
