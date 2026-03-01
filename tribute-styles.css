@@ -22,13 +22,13 @@ h1, h2{
 }
 
 figure{
+   
   background-color:rgba(158, 158, 158,0.4);
 }
-img{
-  min-width:15rem;
-  width:calc(10rem + 10vw);
-  max-width: 50rem;
-  margin: 1rem auto 0;
+#image{
+  object-fit: cover;
+  max-width:50rem;
+ margin: 1rem auto 0;
   background-color:gray;
   
 }
