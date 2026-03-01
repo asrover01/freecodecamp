@@ -28,7 +28,7 @@ figure{
 #image{
   object-fit: cover;
   max-width:50rem;
- margin: 1rem auto 0;
+  margin: 1rem auto 0;
   background-color:gray;
   
 }
