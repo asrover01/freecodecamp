@@ -25,7 +25,9 @@ h1 {
 
 .btn {
   cursor: pointer;
-  width: 100px;
+  width: clamp(150px, 20vw, 200px);
+  height: clamp(50px, 5vw, 70px);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   margin: 10px;
   color: var(--very-dark-blue);
   background-color: var(--golden-yellow);
