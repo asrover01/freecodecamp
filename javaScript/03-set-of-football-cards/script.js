@@ -1,15 +1,15 @@
 
 const footballTeam = {
-  team :"Wildcats",
+  team :"Griffindor",
   year: 1988,
-  headCoach: "John Wallis",
+  headCoach: "Minerva McGonagall",
   players:[
     {
-        name: "John Smith",
+        name: "Oliver Wood",
         position: "forward",
         isCaptain: true,
     },{
-name: "Mike Ferdard",
+name: "Fred Weasley",
         position: "midfielder",
         isCaptain: false,
     },{
@@ -21,9 +21,9 @@ name: "Mike Ferdard",
         position: "goalkeeper",
         isCaptain: false,
     },{
-        name:"Nathan Howell",
-        position:"forward",
-        isCaptain:false
+        name: "George Weasley",
+        position: "forward",
+        isCaptain: false
     }
   ]
 }
