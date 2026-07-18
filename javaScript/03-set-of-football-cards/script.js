@@ -2,7 +2,7 @@
 const footballTeam = {
   team :"Griffindor",
   year: 2006,
-  headCoach: "Minerva McGonagall",
+  headCoach: "Madam Rolanda Hooch",
   players:[
     {
         name: "Oliver Wood",
