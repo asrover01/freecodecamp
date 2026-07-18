@@ -22,7 +22,8 @@ body {
 .title,
 .options-label,
 .team-stats,
-footer {
+footer,
+.footer-p{
   color: var(--white);
 }
 
