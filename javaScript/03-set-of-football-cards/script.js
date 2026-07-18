@@ -6,24 +6,24 @@ const footballTeam = {
   players:[
     {
         name: "Oliver Wood",
-        position: "forward",
+        position: "chaser",
         isCaptain: true,
     },{
 name: "Fred Weasley",
-        position: "midfielder",
-        isCaptain: false,
-    },{
-        name: "Harry Potter",
-        position: "defender",
-        isCaptain: false,
-    },{
-        name: "Ron Weasley",
-        position: "goalkeeper",
+        position: "beater",
         isCaptain: false,
     },{
         name: "George Weasley",
-        position: "forward",
+        position: "beater",
         isCaptain: false
+    },{
+        name: "Harry Potter",
+        position: "seeker",
+        isCaptain: false,
+    },{
+        name: "Ron Weasley",
+        position: "keeper",
+        isCaptain: false,
     }
   ]
 }
