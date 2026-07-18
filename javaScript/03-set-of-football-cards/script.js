@@ -3,13 +3,14 @@ const footballTeam = {
   team :"Griffindor",
   year: 2006,
   headCoach: "Madam Rolanda Hooch",
+  // I chose the harry potter quiddich team cause i dont watch football and it was the only thing i could think of
   players:[
     {
         name: "Oliver Wood",
-        position: "chaser",
+        position: "keeper",
         isCaptain: true,
     },{
-name: "Fred Weasley",
+        name: "Fred Weasley",
         position: "beater",
         isCaptain: false,
     },{
@@ -21,8 +22,16 @@ name: "Fred Weasley",
         position: "seeker",
         isCaptain: false,
     },{
-        name: "Ron Weasley",
-        position: "keeper",
+        name: "Angelina Johnson",
+        position: "chaser",
+        isCaptain: false,
+    },{
+        name: "Alicia Spinnet",
+        position: "chaser",
+        isCaptain: false,
+    },{
+        name: "Katie Bell",
+        position: "chaser",
         isCaptain: false,
     }
   ]
