@@ -20,7 +20,7 @@ body {
 }
 
 .bg-information-container {
-    margin: 15px 0 25px;
+    margin: 0 0 25px;
     font-size: 1.2rem;
 }
 
@@ -28,13 +28,13 @@ body {
 
 .btn {
     cursor: pointer;
-    padding: 10px;
-    margin: 10px;
+    padding: 0.7em;
+    margin: 0.3rem;
     color: var(--dark-purple);
     background-color: var(--golden-yellow);
     background-image: linear-gradient(#fecc4c, #ffac33);
     border-color: var(--golden-yellow);
-    border-width: 3px;
+    border-width:0.4rem;
 }
 
 .btn:hover {
@@ -51,4 +51,5 @@ h1, section {
     justify-self: center;
     width:fit-content;
      background-color: var(--dark-purple);
+     padding: 0.3em 0.5em;
 }
